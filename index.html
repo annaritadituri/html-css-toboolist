@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,5 +13,68 @@
         <img src="./img/logo copia.png" alt="logo">
         <h1>Toboolist</h1>
     </header>
+
+    <!--Sezione to-do list-->
+    <main>
+        <div class="container">
+
+            <section class="white">
+                <button>Add task</button>
+                <button>Add Section</button>
+            </section>
+            
+            <!--Elenco-->
+            <div class="white">
+                <ul>
+
+                    <li>
+                        <span class="title"><span>&#10148;</span> New Task</span>
+                        <ul>
+                            <li><span class="checkmark">&#10003;</span>Quarterly Newsletter <button class="etichetta blu">Editorial</button></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="title"><span>&#10148;</span> Today</span>
+                        <ul>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Recruiting blog post <button class="etichetta blu">Editorial</button>
+                            </li>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Mobile app launch <button class="etichetta viola">Q1 Goals</button>
+                            </li>
+                            <li>
+                                <span class="x">&#10007;</span>Interview John H. <button class="etichetta verde">Recruiting</button>
+                            </li>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Summit update to mobile storefronts <button class="etichetta arancione">Mobile</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="title"><span>&#10148;</span> Upcoming</span>
+                        <ul>
+                            <li>
+                                <span class="x">&#10007;</span>Schedule meeting with Alex
+                            </li>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Homepage refresh <button class="etichetta fucsia">Website</button>
+                            </li>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Onboard new Sales team members <button class="etichetta lime">Sales</button>
+                            </li>
+                            <li>
+                                <span class="checkmark">&#10003;</span>Review editorial calendar <button class="etichetta blu">Editorial</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
 </body>
 </html>
