@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Sezione header
+*/
+
+header {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+header img {
+    height: 10vh;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 6vh;
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
